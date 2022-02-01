@@ -1,0 +1,42 @@
+//Compiler version gcc  6.3.0
+#include <stdio.h>
+
+typedef int BOOL;
+
+
+#define True 1
+#define False 0
+
+int cheak(int Ino)
+{
+  if(Ino % 5 == 0)
+  {
+    return True;
+  }
+  else
+  {
+    return False;
+  }
+}
+
+int main()
+{
+  int ivalue = 0;
+  BOOL bret = False;
+  
+  printf("Enter A Number => ");
+  scanf("%d",&ivalue);
+  
+  bret = cheak(ivalue);
+  
+  if(bret == True)
+  {
+     printf("\n\t Given Number is Divisible by 5");
+  }
+  else 
+  {
+    printf("\n\t Given Number Is Not Divisible by 5 ");
+  }
+  
+  return 0;
+}
