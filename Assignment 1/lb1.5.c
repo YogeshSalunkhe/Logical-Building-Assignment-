@@ -18,5 +18,6 @@ int main()
       ivalue = 5;
       
   Accept(ivalue);
-  return 0;
+ 
+ return 0;
 }
