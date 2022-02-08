@@ -19,6 +19,6 @@ int main()
   
   Display(Ivalue);
   
-  
+  getch();
   return 0;
 }
