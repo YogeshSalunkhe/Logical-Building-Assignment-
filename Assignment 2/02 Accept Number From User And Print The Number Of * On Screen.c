@@ -13,10 +13,12 @@ void Display(int Ino)
 int main()
 {
   int Ivalue=0;
+  
   printf("Enter Number => ");
   scanf("%d",&Ivalue);
   
   Display(Ivalue);
+  
   
   return 0;
 }
