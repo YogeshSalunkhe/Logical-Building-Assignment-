@@ -14,7 +14,7 @@ void Display(int Ino)
 }
 int main()
 {
-  int Ivalue=0;
+  int Ivalue = 0;
   
   printf("Enter Number => ");
   scanf("%d",&Ivalue);
