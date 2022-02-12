@@ -3,9 +3,9 @@
 
 void Display(int Ino,int Frecuncy)
 {
-   int cnt;
+   int cnt = 0;
    
-   for(cnt=1;cnt<=Frecuncy;cnt++)
+   for(cnt=1;cnt <= Frecuncy;cnt++)
    {
      printf(" %d ",Ino);
    }
