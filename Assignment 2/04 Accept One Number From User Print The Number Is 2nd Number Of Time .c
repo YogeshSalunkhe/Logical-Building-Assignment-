@@ -13,6 +13,7 @@ void Display(int Ino,int Frecuncy)
 int main()
 {
   int Ivalue=0,Icnt=0;
+
   printf("\n\t Enter Number => ");
   scanf("%d",&Ivalue);
   
