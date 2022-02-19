@@ -25,6 +25,6 @@ int main()
   
   Ret = Divide(N1,N2);
   
-  printf ("\n\t Dividesion Of Gven Numbers Is %d ",Ret);
+  printf ("\n\t Division Of Given Numbers Is %d ",Ret);
   return 0;
 }
