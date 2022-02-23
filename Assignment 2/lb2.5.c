@@ -1,5 +1,6 @@
 //Compiler version gcc  6.3.0
 #include <stdio.h>
+#include <conio.h>
 
 #define True 1
 #define False 0
