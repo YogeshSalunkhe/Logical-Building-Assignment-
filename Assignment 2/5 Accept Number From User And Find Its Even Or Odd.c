@@ -36,6 +36,7 @@ int main()
   {
     printf("\n\t Given Number is Odd.");
   }
-  
+ 
+  getch();
   return 0;
 }
