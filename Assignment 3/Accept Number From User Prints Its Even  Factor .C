@@ -22,8 +22,6 @@ void Display_factor(int Ino)
       }
      
     }
- 
-  
 }
 
 int main()
@@ -34,7 +32,6 @@ int main()
   scanf("%d",&Ivalue);
   
   Display_factor(Ivalue);
-  
   
   return 0;
 }
