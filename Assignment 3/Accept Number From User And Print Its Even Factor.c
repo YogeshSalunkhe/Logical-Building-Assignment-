@@ -14,10 +14,8 @@ void Display_factor(int Ino)
     for(i = Ino/2 ; i <= Ino ; i--)
     {
       if(Ino % i == 0 && i % 2 == 0)
-      {
-          
-               printf(" %d ",i);
-          
+      {    
+             printf(" %d ",i);    
       }
      
     }
@@ -31,7 +29,6 @@ int main()
   scanf("%d",&Ivalue);
   
   Display_factor(Ivalue);
-  
-  
+ 
   return 0;
 }
