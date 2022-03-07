@@ -28,7 +28,7 @@ int main()
   printf("\n\t Enter A Character => ");
   scanf("%c",&ch);
   
-  ret =cheakvowel(ch);
+  ret =cheak_vowel(ch);
   
   if(ret == 1)
   {
