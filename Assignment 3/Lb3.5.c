@@ -5,7 +5,7 @@
 #define True 1;
 #define False 0;
 
-int cheakvowel(char ch)
+int cheak_vowel(char ch)
 {
   if(ch == 'A'||ch =='a'||ch == 'E'||ch == 'e'||ch == 'I'||ch == 'i'||ch == 'O'||ch == 'o'||ch == 'U'|| ch == 'u')
   {
