@@ -11,10 +11,8 @@ void Display_Convert(char Cvalue)
    else if(Cvalue >= 'a' && Cvalue <='z')
    {
      printf(" %c ",Cvalue - 32);
-   }
-  
+   }  
 }
-
 int main()
 {
   char Cvalue = '\0';
