@@ -19,7 +19,7 @@ int cheak_vowel(char ch)
 
 int main()
 {
-  char ch = '\0';
+ char ch = '\0';
   
  typedef int  BOOL; 
  
