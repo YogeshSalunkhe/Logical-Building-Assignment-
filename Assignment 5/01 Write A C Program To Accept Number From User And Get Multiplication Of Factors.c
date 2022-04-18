@@ -2,20 +2,28 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main()
+int Multfact(int N)
 {
-  int No = 0,I =0,Ret=1;
-  
-  printf("\n\t Enter A Number => ");
-  scanf("%d",&No);
-  
-  for(I = 1;I < No;I++)
+   int i=0,Ret=1;
+
+    for(I = 1;I < No;I++)
   {
     if(No % I == 0)
     { 
       Ret *= I;
     }
   }
+  return Ret;
+}
+int main()
+{
+  int No = 0,Ret=0;
+  
+  printf("\n\t Enter A Number => ");
+  scanf("%d",&No);
+  
+  Ret=Multfact(No);
+
   printf("\n\t %d",Ret);
   
   getch();
