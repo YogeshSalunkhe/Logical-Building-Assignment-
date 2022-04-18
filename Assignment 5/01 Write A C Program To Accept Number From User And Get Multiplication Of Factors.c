@@ -4,11 +4,11 @@
 
 int Multfact(int N)
 {
-   int i=0,Ret=1;
+   int I=0,Ret=1;
 
-    for(I = 1;I < No;I++)
+    for(I = 1;I < N;I++)
   {
-    if(No % I == 0)
+    if(N % I == 0)
     { 
       Ret *= I;
     }
