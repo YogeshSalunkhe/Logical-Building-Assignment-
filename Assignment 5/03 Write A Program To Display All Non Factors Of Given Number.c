@@ -4,7 +4,7 @@
 
 void Non_fact(int N)
 {
-   int i=0,Ret=1;
+   int i=0;
 
     for(i = 1;i < N;i++)
   {
@@ -17,7 +17,7 @@ void Non_fact(int N)
 }
 int main()
 {
-  int No = 0,Ret=0;
+  int No = 0;
   
   printf("\n\t Enter A Number => ");
   scanf("%d",&No);
