@@ -1,17 +1,14 @@
 //Compiler version gcc  6.3.0
 #include <stdio.h>
 
-void DisplayOdd(iNo)
+void Display(iNo)
 {
   int i = 1;
  
   while(i <= 5)
   {
-    
-    
       printf(" %d ",i*iNo);
-    
-    i++;
+      i++;
   }
 }
 int main()
@@ -21,7 +18,7 @@ int main()
   printf("\n\t Enter A Value => ");
   scanf("%d",&iValue);
   
-  DisplayOdd(iValue);
+  Display(iValue);
   
   return 0;
 }
