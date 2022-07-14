@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int CntFour(int No)
+int DigGreater(int No)
 {
   int Dig = 0,cnt = 0;
   while(No > 0)
@@ -25,7 +25,7 @@ int main()
   printf("\n\t Enter Number => ");
   scanf("%d",&iValue);
   
-  iRet = CntFour(iValue);
+  iRet = DigGreater(iValue);
   
   printf("\n\t %d",iRet);
   
