@@ -1,7 +1,7 @@
 //Compiler version gcc  6.3.0
 #include <stdio.h>
 
-int CountCapital(char *Str)
+int CountSmall(char *Str)
 {
     int iCnt = 0;
     
@@ -24,7 +24,7 @@ int main()
   printf("\n\t Enter A String => ");
   scanf("%[^\n]",&Arr);
   
-  iRet = CountCapital(Arr);
+  iRet = CountSmall(Arr);
   
   printf("\n\t Small letters count = %d",iRet);
   
