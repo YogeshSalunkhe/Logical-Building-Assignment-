@@ -32,5 +32,6 @@ int main()
   
   Pattern(iValue1, iValue2);
   
+  getch();
   return 0;
 }
