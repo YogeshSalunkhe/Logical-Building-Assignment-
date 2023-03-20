@@ -8,6 +8,7 @@ void Getpattern(int No)
  
   Ino = No; 
   No = 1;
+  
   while(Ino > 0)
   {
       No = No*10 + Ino % 10;
@@ -17,20 +18,21 @@ void Getpattern(int No)
   
   for(i = 1;i <= Cnt;i++)
   {
-    for(j = 1;j <= No % 10;j++)
-    {
-        if(j == 1)
+        for(j = 1;j <= No % 10;j++)
         {
-            printf("\n\t %d",No%10);
+            if(j == 1)
+            {
+                printf("\n\t %d",No%10);
+            }
+            else
+            {
+                printf(" # ");
+            }
         }
-        else
-        {
-            printf(" # ");
-        }
-    }
-    No /= 10;
-    printf("\n");
-  }
+        No /= 10;
+        printf("\n");
+ }
+  
 }
 
 int main()
@@ -42,5 +44,6 @@ int main()
   
   Getpattern(iNo);
   
+  getch();
   return 0;
 }
